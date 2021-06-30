@@ -30,7 +30,7 @@ export default {
     /* variables */
   --main-bg: hsl(300, 2%, 9%);
   --bg: #201f20;
-	--fg: #a7a7a7;
+	--fg: #d6d6d6;
 
 	--inputs: #222122;
   --icons:  hsl(175, 70%, 33%);
@@ -38,7 +38,7 @@ export default {
   --close-btn-hover : #c21212a4;
 
   --search-shadow : 0px 0px 4px 1px #00000099;
-  --icons-active: #bbbbbb;
+  --icons-active: #e4e4e4;
     /* variables */
 
     width: 70vw;
