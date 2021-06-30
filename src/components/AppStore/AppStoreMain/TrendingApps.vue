@@ -56,7 +56,7 @@ export default {
         border-radius: 3px;
         color: var(--fg);
         background: var(--bg);
-        box-shadow: 2px 2px 4px #00000079, -2px -2px 4px #ffffff19;
+        box-shadow: 1px 1px 2px #00000079, -1px -1px 2px #ffffff19;
         border: none;
         outline: none;
     }
