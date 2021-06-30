@@ -57,6 +57,9 @@ export default {
   width: 15%;
   margin-right: 40px;
   cursor: pointer;
+  -webkit-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;  
 }
 .appStoreHeader .logo img {
   width: 1.5rem;
