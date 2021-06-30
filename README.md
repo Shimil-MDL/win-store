@@ -24,6 +24,6 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
-##Corections to make:
+## Corections to make:
 - cursor pointer event on see all button in the trending app section
 - 
