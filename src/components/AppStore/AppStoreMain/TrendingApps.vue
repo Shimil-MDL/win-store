@@ -46,6 +46,9 @@ export default {
         justify-content: center;
         align-items: center;
         color: var(--fg);
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
     }
     .trendingApps .title button{
         height: 20px;
