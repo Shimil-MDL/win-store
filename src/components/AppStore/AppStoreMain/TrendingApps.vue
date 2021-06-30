@@ -62,6 +62,7 @@ export default {
     }
     .trendingApps .title button:active{
         box-shadow: inset 1px 1px 2px #00000079, inset -1px -1px 2px #ffffff19;
+        transform: translateY(-2px);
         font-size: 0.97rem;
     }
     .trendingApps .title button:hover{
