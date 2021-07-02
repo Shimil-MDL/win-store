@@ -89,33 +89,29 @@ export default {
   /* box-sizing: border-box; */
 }
 
-.greenGradient {
-  --gradientBg: linear-gradient(45deg, hsl(175, 30%, 33%), hsl(143, 59%, 43%));
-  background-image: linear-gradient(
-    45deg,
-    hsl(175, 30%, 33%),
-    hsl(143, 59%, 43%)
-  );
+.greenGradient{
+    --gradientBg: linear-gradient(45deg, hsl(175, 30%, 33%), hsl(143, 59%, 43%));
+    background-image: var(--gradientBg);
 }
-.seeOffGradient {
-  --gradientBg: linear-gradient(45deg, #df4b1f, #df60a8);
-  background-image: linear-gradient(45deg, #df4b1f, #df60a8);
+.seeOffGradient{
+    --gradientBg: linear-gradient(45deg, #df4b1f, #df60a8);
+    background-image: var(--gradientBg);
 }
-.clearSkyGradient {
-  --gradientBg: linear-gradient(45deg, #00d2aa, #3a7bd5);
-  background-image: linear-gradient(45deg, #00d2aa, #3a7bd5);
+.clearSkyGradient{
+    --gradientBg: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );
+    background-image: var(--gradientBg);
 }
-.suzyGradient {
-  --gradientBg: linear-gradient(45deg, #d0a423, #d65100);
-  background-image: linear-gradient(45deg, #d0a423, #d65100);
+.suzyGradient{
+    --gradientBg: linear-gradient( 109.6deg,  rgba(254,87,98,1) 11.2%, rgba(255,107,161,1) 99.1% );
+    background-image: var(--gradientBg);
 }
-.purpleGradient {
-  --gradientBg: linear-gradient(45deg, #a044ff, #6a3093);
-  background-image: linear-gradient(45deg, #a044ff, #6a3093);
+.purpleGradient{
+    --gradientBg: linear-gradient(45deg, #1c0d45, #6746c6);
+    background-image: var(--gradientBg);
 }
-.sweetMorningGradient {
-  --gradientBg: linear-gradient(45deg, #d5af19, #de2711);
-  background-image: linear-gradient(45deg, #d5af19, #de2711);
+.sweetMorningGradient{
+    --gradientBg: linear-gradient(45deg, #bd7a28, #de4431);
+    background-image: var(--gradientBg);
 }
 
 .appStoreMain .preview .previewItems:hover {
