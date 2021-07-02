@@ -81,8 +81,8 @@ export default {
 }
 .appStoreMain .preview .previewItems {
   /* background: rgba(20, 20, 20, 0.623); */
-  height: 85%;
-  width: 16%;
+  height: 83%;
+  width: 15%;
   border-radius: 5px;
   transition: 0.5s;
 
