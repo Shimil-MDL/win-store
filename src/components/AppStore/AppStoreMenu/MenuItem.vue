@@ -71,10 +71,10 @@ export default {
   height: 1.5rem;
 }
 .menuItemIcon i {
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 .menuItemText {
-  font-weight: bold;
-  font-size: 1rem;
+  font-weight: 500;
+  font-size: 0.9rem;
 }
 </style>
